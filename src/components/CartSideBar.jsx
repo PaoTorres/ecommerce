@@ -16,7 +16,7 @@ const CartSideBar = ({show, handleClose}) => {
      
 
     const chekout = ()=>{
-        alert("Product added to cart.");
+        alert("Checkout done.");
         dispatch(purchaseCartThunk());
     }
 
